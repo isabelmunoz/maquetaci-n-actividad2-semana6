@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+}
+/*Css para nav*/
+.navbar{
+	margin: 0;
+
+}
+.navbar a img{
+	width: 7rem;
+	margin-left: 105px;
+}
+.nav {
+    margin-right: 105px;
+}
+
+/*Css para header*/
+.header__barbershop{
+	position: relative;
+    top: -25px;
+}
+.header__image{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 70rem;
+	background-image: url(../img/post-image.jpg);
+	background-size: cover;	
+}
+.header__image h1{
+	color: white;
+	text-align: center;
+    padding-top: 350px;
+    font-family:"Playfair Display";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 70px;
+    width: 600px;
+    margin-left: 350px;
+}
+
+/*Css para section*/
+.blog__contenedor{
+	padding: 20px 200px 20px 200px;
+}
+.blog__contenedor >img{
+	width: 30px;
+}
+.blog__contenedor > h5{
+	display: inline-block;
+	padding-bottom: 40px;
+}
+.social ul{
+	margin-left: 220px;
+}
+.social ul li{
+	list-style: none;
+	display: inline;
+
+}
+.social__icons{
+	width: 20px;
+	margin: 5px;
+
+}
