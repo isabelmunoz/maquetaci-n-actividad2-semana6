@@ -1,3 +1,4 @@
+
 body{
 	margin: 0;
 }
@@ -18,6 +19,7 @@ body{
 .header__barbershop{
 	position: relative;
     top: -25px;
+    text-align: center;
 }
 .header__image{
 	margin: 0;
@@ -33,13 +35,18 @@ body{
     padding-top: 350px;
     font-family:"Playfair Display";
     font-style: italic;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 70px; 
 }
-.linea{
-	height: 5px;
+.fa-angle-double-down{
+	font-size: 50px;
+	color: white;
+	margin-top: 60px;
 }
+
 /*Css para section*/
+
+
 .blog__contenedor{
 	padding: 20px 200px 20px 200px;
 }
@@ -51,7 +58,7 @@ body{
 	padding-bottom: 40px;
 }
 .social ul{
-	margin-left: 220px;
+	margin-left: 22rem;
 }
 .social ul li{
 	list-style: none;
@@ -65,7 +72,7 @@ body{
 }
 .social ul li i{
 	color: #707070;
-	font-size: 35px;
+	font-size: 3.5rem;
 	margin: 5px;
 }
 .btn-default{
@@ -76,17 +83,73 @@ body{
 	border-radius: 15px;
 	margin-bottom: 19px;
 }
+.lineaicon{
+	text-align: center;
+}
 .linea{
 	background-color: #707070;
 	width: 100%;
 	height: 1px; 
 	border: none;
 	margin-top: 60px;
+	margin-bottom: 0px;
 }
-.fa-user-circle{
-    color: #707070;
-	font-size: 30px;
-	margin: 5px;
-	display: absolute;
-	top:50px;
+.icon__user{
+	width: 3%;
+	border-radius: 50%;
+	border: 1px solid #707070;
+    position: relative;
+    bottom: 18px;
+}
+.divnaomi p{
+	display: inline-block;
+	position: relative;
+	left: 12rem;
+	top:;
+
+}
+.divnaomi span{
+	font-family: "Playfair Display";
+	font-style: italic;
+	font-weight: 900;
+	font-size: 3rem;
+}
+.imgnaomi{
+	border-radius: 50%;
+	position: relative;
+	left: 10rem;
+}
+.divnaomi2{
+	padding-bottom: 7rem;
+}
+.divnaomi2 p{
+	padding: 6rem;
+	padding-right: 16rem;
+}
+.noticias{
+	width: 100%;
+	font-size: 1.5rem;
+}
+.noticias__div{
+	background-color: #dedede;
+	padding: 40px 10px 20px 0;
+}
+
+.parrafoderecha{
+	text-align: right;
+}
+.fa-chevron-circle-left, .fa-chevron-circle-right{
+	color: gray;
+	font-size: 2rem;
+}
+
+/*Css para footer*/
+.footer{
+	background-color: #121619;
+	padding-left: 58rem;
+
+}
+.footer__logo{
+	width: 10%; 
+	padding: 40px 0px 20px 0px;
 }
